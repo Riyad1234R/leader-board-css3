@@ -1,5 +1,22 @@
-/* top-players styel */
-.players {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+ /* common styles */
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #f3f1ff;
+ }
+
+ /* top players style */
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .player {
+     display: flex;
+ }
+
+ .player img {
+     width: 56px;
+     height: 56px;
+ }
